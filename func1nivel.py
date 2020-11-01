@@ -10,7 +10,7 @@ def sumaTodos(limitTo, f):
         resultado += f(i)
     return resultado
 
-if __name__ ==  "--main__":
+if __name__ ==  "__main__":
     print(sumaTodos(100, normal))
     print(sumaTodos(10, cuadrado))
 else:
